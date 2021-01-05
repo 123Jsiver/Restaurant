@@ -1,0 +1,36 @@
+Body {
+  background-color: beige;
+  text-align: center;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.Ketchup {
+  width: 300px;
+  height: 300px;
+}
+#Burger {
+  width: 500px;
+  height: 400px;
+}
+
+div {
+  text-align: center;
+}
+hr {
+  border: none;
+  border-top: 5px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr:after {
+  background: beige;
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
